@@ -1,7 +1,5 @@
 # Crystal Matcher - A Match-3 Game Project
 
-![Crystal Matcher Gameplay](screenshots/gameplay.png)
-
 A colorful and engaging **Match-3 puzzle game** built with **Thunde Engine** where players swap adjacent crystals to create matches of three or more identical gems.
 
 ![Screenshot](https://raw.githubusercontent.com/thunder-engine/sample-match3/main/screen.png)
