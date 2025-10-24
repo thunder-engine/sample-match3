@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<document version="14">
+    <graph>
+        <nodes>
+            <node x="0" y="0" index="0" type="ShaderRootNode">
+                <value type="int" name="materialType">0</value>
+                <value type="int" name="lightingModel">0</value>
+                <value type="bool" name="wireFrame">false</value>
+                <value type="bool" name="twoSided">false</value>
+                <value type="bool" name="useWithSkinned">true</value>
+                <value type="bool" name="useWithParticles">true</value>
+                <value type="int" name="blendColorOperation">0</value>
+                <value type="int" name="blendAlphaOperation">0</value>
+                <value type="int" name="blendSourceColor">0</value>
+                <value type="int" name="blendSourceAlpha">0</value>
+                <value type="int" name="blendDestinationColor">1</value>
+                <value type="int" name="blendDestinationAlpha">1</value>
+                <value type="bool" name="depthTest">true</value>
+                <value type="bool" name="depthWrite">true</value>
+                <value type="int" name="depthCompare">1</value>
+                <value type="bool" name="stencilTest">false</value>
+                <value type="int" name="stencilReadMask">1</value>
+                <value type="int" name="stencilWriteMask">1</value>
+                <value type="int" name="stencilReference">0</value>
+                <value type="int" name="stencilCompareBack">7</value>
+                <value type="int" name="stencilCompareFront">7</value>
+                <value type="int" name="stencilFailBack">0</value>
+                <value type="int" name="stencilFailFront">0</value>
+                <value type="int" name="stencilPassBack">0</value>
+                <value type="int" name="stencilPassFront">0</value>
+                <value type="int" name="stencilZFailBack">0</value>
+                <value type="int" name="stencilZFailFront">0</value>
+            </node>
+            <node x="-249" y="21" index="1" type="Mix" />
+            <node x="-649" y="130" index="2" type="TexCoord">
+                <value name="Index" />
+            </node>
+            <node x="-449" y="125" index="3" type="Mask">
+                <value type="bool" name="R">false</value>
+                <value type="bool" name="G">true</value>
+                <value type="bool" name="B">false</value>
+                <value type="bool" name="A">false</value>
+            </node>
+            <node x="-649" y="-52" index="4" type="ConstVector3">
+                <value type="vec3" name="Value">0.680000, 0.470000, 0.640000</value>
+            </node>
+            <node x="-649" y="47" index="5" type="ConstVector3">
+                <value type="vec3" name="Value">0.260000, 0.330000, 0.560000</value>
+            </node>
+        </nodes>
+        <links>
+            <link sender="1" out="0" receiver="0" in="1" />
+            <link sender="2" out="0" receiver="3" in="1" />
+            <link sender="3" out="0" receiver="1" in="3" />
+            <link sender="4" out="0" receiver="1" in="1" />
+            <link sender="5" out="0" receiver="1" in="2" />
+        </links>
+    </graph>
+</document>

@@ -1,0 +1,501 @@
+[
+	[
+		"Map",
+		441717902,
+		0,
+		"",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Scene",
+		311056031,
+		441717902,
+		"First",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-465850389,
+		311056031,
+		"Camera",
+		{
+			"enabled": true,
+			"name": "Camera",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1271761194,
+		-465850389,
+		"",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [2.500000,4.000000,10.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Camera",
+		1938211806,
+		-465850389,
+		"Camera",
+		{
+			"backgroundColor": {
+				"Vector4": [0.000000,0.333333,0.498039,1.000000]
+			},
+			"enabled": true,
+			"far": 100.000000,
+			"focalDistance": 1.000000,
+			"fov": 60.000000,
+			"near": 0.100000,
+			"orthographic": true,
+			"ratio": 0.623088,
+			"size": 12.000000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		185254543,
+		311056031,
+		"Background",
+		{
+			"enabled": true,
+			"name": "Background",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1547056000,
+		185254543,
+		"",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [2.500000,4.000000,-10.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [24.000000,12.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-1312912675,
+		185254543,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{24bc1058-6e1e-4991-b885-80e7c90e3aec}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	],
+	[
+		"Actor",
+		-156249552,
+		311056031,
+		"TextRender",
+		{
+			"enabled": true,
+			"name": "TextRender",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		2138576584,
+		-156249552,
+		"",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-0.500000,9.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [0.020000,0.020000,0.020000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"TextRender",
+		547449796,
+		-156249552,
+		"TextRender",
+		{
+			"alignment": 17,
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"enabled": true,
+			"fontSize": 64,
+			"kerning": true,
+			"size": {
+				"Vector2": [0.000000,0.000000]
+			},
+			"text": "0",
+			"wordWrap": false
+		},
+		[
+		],
+		{
+			"font": "{00000000-0601-0000-0000-000000000000}",
+			"material": "{3dc2e738-995a-46c9-be8b-f1e91c0bf49b}"
+		}
+	],
+	[
+		"Actor",
+		241387472,
+		311056031,
+		"Board",
+		{
+			"enabled": true,
+			"name": "Board",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1306411016,
+		241387472,
+		"",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Board",
+		-34503376,
+		241387472,
+		"Board",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-1993958636,
+		311056031,
+		"Mount",
+		{
+			"enabled": true,
+			"name": "Mount",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		409192501,
+		-1993958636,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,-2.054950,-9.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.382683,0.923880]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,45.000000]
+			},
+			"scale": {
+				"Vector3": [5.000000,5.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-324356775,
+		-1993958636,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{24bc1058-6e1e-4991-b885-80e7c90e3aec}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	],
+	[
+		"Actor",
+		-2121263758,
+		311056031,
+		"Mount2",
+		{
+			"enabled": true,
+			"name": "Mount2",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1905407895,
+		-2121263758,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-2.985837,-2.381415,-9.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.382683,0.923880]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,45.000000]
+			},
+			"scale": {
+				"Vector3": [4.000000,4.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-2050701106,
+		-2121263758,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{24bc1058-6e1e-4991-b885-80e7c90e3aec}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	],
+	[
+		"Actor",
+		-424943393,
+		311056031,
+		"Mount3",
+		{
+			"enabled": true,
+			"name": "Mount3",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1734556436,
+		-424943393,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [3.937716,-2.573933,-9.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.382683,0.923880]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,45.000000]
+			},
+			"scale": {
+				"Vector3": [4.000000,4.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-632064329,
+		-424943393,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{24bc1058-6e1e-4991-b885-80e7c90e3aec}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	],
+	[
+		"Actor",
+		67652357,
+		311056031,
+		"Mount4",
+		{
+			"enabled": true,
+			"name": "Mount4",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1015682432,
+		67652357,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [7.890561,-2.573933,-9.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.382683,0.923880]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,45.000000]
+			},
+			"scale": {
+				"Vector3": [4.000000,4.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		1979109479,
+		67652357,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{24bc1058-6e1e-4991-b885-80e7c90e3aec}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	]
+]

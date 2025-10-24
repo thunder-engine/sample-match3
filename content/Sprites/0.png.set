@@ -1,0 +1,23 @@
+{
+	"guid": "{b86d9248-41fc-47dd-9b1a-d83a1e884b2f}",
+	"id": -1130268591,
+	"md5": "{8c1c3d08-6111-1840-cc68-24a9c65e2474}",
+	"meta": {
+	},
+	"settings": {
+		"filtering": 1,
+		"mipMaping": false,
+		"pixelsPerUnit": 100,
+		"type": 2,
+		"wrap": 1
+	},
+	"subitems": {
+		"_Page1": [
+			"{8c1c3d08-6111-1840-cc68-24a9c65e2474}",
+			"Texture",
+			551282792
+		]
+	},
+	"type": "Sprite",
+	"version": 9
+}
